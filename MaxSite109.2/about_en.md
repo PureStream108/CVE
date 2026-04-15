@@ -1,4 +1,4 @@
-# MaxSite-CVE
+# MaxSite109.2
 
 The backend upload endpoint has an access-control flaw. A low-privilege backend user can upload a same-origin HTML file without authorization, which can then trigger a stored client-side attack when visited by a higher-privileged user and lead to backend information disclosure.
 
